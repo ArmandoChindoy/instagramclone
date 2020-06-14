@@ -1,0 +1,67 @@
+:root {}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+}
+
+.container_grid {
+    display: grid;
+    grid-template: repeat(3, 1fr)/repeat(3, 1fr);
+    grid-gap: 20px;
+    justify-content: center;
+    align-content: center;
+}
+
+.post {
+    cursor: pointer;
+    display: block;
+    width: 200px;
+    position: relative;
+}
+
+.post_image {
+    margin: 0;
+}
+
+.post_image img {
+    width: 100%;
+    vertical-align: top;
+}
+
+.post_overlay {
+    background-color: rgba(0, 0, 0, .4);
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.post:hover .post_overlay {
+    display: flex;
+    position: absolute;
+}
+
+.psot_likes,
+.post_comments {
+    width: 80px;
+    margin: 5px;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+}
+
+.post span {
+    position: relative;
+}
