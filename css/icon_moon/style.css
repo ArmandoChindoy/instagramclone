@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?a707eb');
-  src:  url('fonts/icomoon.eot?a707eb#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?a707eb') format('truetype'),
-    url('fonts/icomoon.woff?a707eb') format('woff'),
-    url('fonts/icomoon.svg?a707eb#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?6v5sqt');
+  src:  url('fonts/icomoon.eot?6v5sqt#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?6v5sqt') format('truetype'),
+    url('fonts/icomoon.woff?6v5sqt') format('woff'),
+    url('fonts/icomoon.svg?6v5sqt#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,24 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-search:before {
+  content: "\e906";
+}
+.icon-likes_2:before {
+  content: "\e905";
+}
+.icon-compass:before {
+  content: "\e902";
+}
+.icon-arrow:before {
+  content: "\e903";
+}
+.icon-home:before {
+  content: "\e904";
+}
+.icon-house:before {
+  content: "\e904";
+}
 .icon-comments:before {
   content: "\e900";
 }
